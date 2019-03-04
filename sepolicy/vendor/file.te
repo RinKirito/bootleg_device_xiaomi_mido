@@ -25,3 +25,6 @@ type sysfs_torch, fs_type, sysfs_type;
 
 # XiaomiParts kcal
 type sysfs_kcal, fs_type, sysfs_type;
+
+#Health hal
+type persist_battery_file, file_type;
