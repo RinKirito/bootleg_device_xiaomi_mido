@@ -159,10 +159,6 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
@@ -365,10 +361,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
-
-# ThermalController app
-PRODUCT_PACKAGES += \
-    ThermalController
 
 # USB HAL
 PRODUCT_PACKAGES += \
